@@ -7,7 +7,7 @@ public class AsyncDnD : MonoBehaviour
     {
         // task 1:
         Debug.Log("The wizard prepares to attune to Amulet...");
-        AttuneToAmulet(); // Async void method
+        AttuneToAmulet();
         Debug.Log("The wizard has started the attunement process.");
 
         // task 2:
