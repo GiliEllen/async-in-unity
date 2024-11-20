@@ -33,7 +33,7 @@ public class AsyncDnD : MonoBehaviour
     private async Task PreparePowerfulSpell()
     {
         Debug.Log("The wizard begins gathering arcane energy...");
-        await Task.Delay(1500); // Simulating time to prepare spell
+        await Task.Delay(1500); // simulating time to prepare spell
         Debug.Log("The wizard has completed the spell!");
         
         // task 3:
@@ -44,10 +44,10 @@ public class AsyncDnD : MonoBehaviour
     private async Task CompleteQuest()
     {
         Debug.Log("The wizard embarks on a quest to find the Golden Chalice...");
-        await Task.Delay(3000); // Simulating quest time
+        await Task.Delay(3000); // simulating quest time
         Debug.Log("The wizard has found the Golden Chalice!");
         
-        // Part 4: Call async void method without waiting for it
+        // task 4:
         Debug.Log("The wizard begins another attunement to a mysterious relic...");
         AttuneToAmulet();
     }
@@ -67,7 +67,7 @@ public class AsyncDnD : MonoBehaviour
     private async Task AnotherAdventure()
     {
         Debug.Log("The wizard explores a forgotten dungeon...");
-        await Task.Delay(2500); // Simulating dungeon exploration time
+        await Task.Delay(2500); // simulating dungeon exploration time
         Debug.Log("The wizard has escaped the dungeon with ancient tomes!");
     }
 }
